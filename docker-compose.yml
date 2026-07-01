@@ -138,8 +138,3 @@ volumes:
 networks:
   default:
     name: wger_network
-
-include:
-  - path: ./services/postgres.yaml
-  - path: ./services/powersync.yaml
-  - path: ./services/redis.yaml
